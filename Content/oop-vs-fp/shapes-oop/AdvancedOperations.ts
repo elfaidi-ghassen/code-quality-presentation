@@ -1,8 +1,9 @@
 import { Shape } from "./shapes/Shape";
 
 class AdvancedOperations {
-    moveDoubleDistance(Shape: Shape) {
-    return this;
+    moveDoubleDistance(shape: Shape, targetX, targetY) {
+        shape.moveTo(targetX, targetY)
+        shape.moveTo(targetX, targetY)
     }
 
 }
