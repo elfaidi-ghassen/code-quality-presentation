@@ -11,20 +11,17 @@ export class Circle implements Shape {
     this.#radius = radius;
   }
 
-  moveTo(targetX: number, targetY: number): Shape {
+  moveTo(targetX: number, targetY: number) {
     this.#centerX = targetX;
     this.#centerY = targetY;
-    return this;
   }
 
-  rotate(angle: number): Shape {
+  rotate(angle: number) {
     // rotate circle
-    return this;
   }
 
-  scale(factor: number): Shape {
+  scale(factor: number) {
     // scale circle
-    return this;
   }
 
   toString(): string {

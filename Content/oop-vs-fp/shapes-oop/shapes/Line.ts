@@ -18,17 +18,14 @@ export class Line {
     this.#startY = targetY;
     this.#endX += dx;
     this.#endY += dy;
-    return this;
   }
 
   rotate(angle) {
     // rotate line
-    return this;
   }
 
   scale(factor) {
     // scale line
-    return this;
   }
 
   toString() {

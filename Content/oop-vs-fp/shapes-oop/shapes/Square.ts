@@ -11,20 +11,17 @@ export class Square implements Shape {
     this.#size = size;
   }
 
-  moveTo(targetX: number, targetY: number): Shape {
+  moveTo(targetX: number, targetY: number): void {
     this.#topLeftX = targetX;
     this.#topLeftY = targetY;
-    return this;
   }
 
-  rotate(angle: number): Shape {
+  rotate(angle: number): void {
     // rotate square
-    return this;
   }
 
-  scale(factor: number): Shape {
+  scale(factor: number): void {
     this.#size = this.#size * factor;
-    return this;
   }
 
   toString(): string {
