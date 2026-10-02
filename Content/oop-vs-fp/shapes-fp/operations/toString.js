@@ -1,6 +1,6 @@
 
 export const toString = (shape) => {
-  switch (shape.kind) {
+  switch (shape.type) {
     case 'line':
       return `Line from (${shape.startX}, ${shape.startY}) to (${shape.endX}, ${shape.endY})`;
     case 'square':

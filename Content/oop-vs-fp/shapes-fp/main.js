@@ -2,13 +2,13 @@ import { moveTo } from "./operations/moveTo.js";
 import { toString } from "./operations/toString.js";
 
 export const line = (startX, startY, endX, endY) =>
-  ({ kind: 'line', startX, startY, endX, endY });
+  ({ type: 'line', startX, startY, endX, endY });
 
 export const square = (topLeftX, topLeftY, size) =>
-  ({ kind: 'square', topLeftX, topLeftY, size });
+  ({ type: 'square', topLeftX, topLeftY, size });
 
 export const circle = (centerX, centerY, radius) =>
-  ({ kind: 'circle', centerX, centerY, radius });
+  ({ type: 'circle', centerX, centerY, radius });
 
 
 

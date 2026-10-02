@@ -2,7 +2,7 @@ export const rotate = (
   shape,
   angle,
 ) => {
-  switch (shape.kind) {
+  switch (shape.type) {
     case 'line': {
       // rotate line
       return shape

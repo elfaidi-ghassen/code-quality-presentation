@@ -1,5 +1,5 @@
 export const scale = (shape, factor) => {
-  switch (shape.kind) {
+  switch (shape.type) {
     case 'line': {
       // scale line
       return shape

@@ -1,7 +1,7 @@
 import { circle, line, square } from "../main.js";
 
 export const moveTo = (shape, targetX, targetY) => {
-  switch (shape.kind) {
+  switch (shape.type) {
     case 'line': {
       const dx = targetX - shape.startX;
       const dy = targetY - shape.startY;
